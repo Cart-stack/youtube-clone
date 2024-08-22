@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Document</title>
+  </head>
+  <body class="min-h-screen pb-20 bg-white">
+    <header
+      class="fixed left-0 right-0 z-40 flex justify-between bg-white border border-b-slate-300"
+    >
+      <div class="flex sm:mx-6">
+        <img class="w-7" src="img/icons/hamburger-menu.svg" alt="" />
+        <img
+          class="w-20 sm:w-24 sm:ms-6 ms-1"
+          src="img/icons/youtube-logo.svg"
+          alt=""
+        />
+      </div>
+
+      <div class="flex justify-between w-4/12 sm:w-6/12">
+        <div class="flex items-center w-full sm:w-11/12">
+          <input
+            class="sm:w-[200%] border border-slate-600 sm:h-[2.75rem] my-2 placeholder-slate-400 ps-2 w-[100%] h-[1.75rem]"
+            type="search"
+          placeholder="Search"/>
+          <img
+            class="hidden sm:cursor-pointer sm:border sm:my-2 sm:p-3 sm:h-11 sm:w-36 sm:border-slate-600 sm:bg-slate-100 sm:border-s-0 sm:hover:bg-slate-200 sm:block"
+            src="img/icons/search.svg"
+            alt=""
+          />
+          <img
+            class="rounded-full bg-slate-100 h-7 ms-2"
+            src="img/icons/voice-search-icon.svg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="flex gap-1 shrink-0 sm:gap-7">
+        <img class="w-7" src="img/icons/upload.svg" alt="" />
+        <img class="w-7" src="img/icons/youtube-apps.svg" alt="" />
+        <div class="relative flex">
+          <img class="w-7" src="img/icons/notifications.svg" alt="" />
+          <p
+            class="absolute right-0 w-4 text-xs text-center text-white bg-red-600 rounded-full top-2"
+          > 3
+          </p>
+        </div>
+       <div class="flex items-center">
+          <img class="h-6 rounded-full me-2" src="img/channel-img/my-channel.jpeg" alt="" />
+       </div>
+       
+      </div>
+    </header>
+
+    <nav
+      class="hidden gap-1 pt-20 text-xs text-center cursor-pointer sm:flex-col sm:left-0 sm:fixed sm:flex sm:top-0 sm:bottom-0"
+    >
+      <div class="py-4 hover:bg-slate-100">
+        <img class="w-6 m-auto" src="img/icons/home.svg" alt="" />
+        <p>Home</p>
+      </div>
+      <div class="py-4 hover:bg-slate-100">
+        <img class="w-6 m-auto" src="img/icons/explore.svg" alt="" />
+        <p>Explore</p>
+      </div>
+      <mg class="py-4 hover:bg-slate-100">
+        <img class="w-6 m-auto" src="img/icons/subscriptions.svg" alt="" />
+        <p>Subscription</p>
+      </mg cdiv>
+      <div class="py-4 hover:bg-slate-100">
+        <img class="w-6 m-auto" src="img/icons/originals.svg" alt="" />
+        <p>Originals</p>
+      </div>
+      <div class="py-4 hover:bg-slate-100">
+        <img class="w-6 m-auto" src="img/icons/youtube-music.svg" alt="" />
+        <p>Youtube Music</p>
+      </div>
+      <div class="py-4 hover:bg-slate-100">
+        <img class="w-6 m-auto" src="img/icons/library.svg" alt="" />
+        <p>Library</p>
+      </div>
+    </nav>
+
+    <main
+      class="grid pt-16 sm:pt-20 sm:ps-24 sm:grid-cols-3 sm:grid-rows-3 sm:grid sm:gap-y-4 sm:gap-x-1 gap-y-3"
+    >
+      <div class="w-fit">
+        <div class="relative">
+          <img
+            class="sm:w-[25rem]"
+            src="img/thumbnail/thumbnail-1.webp"
+            alt=""
+          />
+          <p
+            class="absolute bottom-0 right-0 mb-1 text-xs text-white bg-black me-1"
+          >
+            14:20
+          </p>
+        </div>
+
+        <div class="flex pt-2">
+          <img
+            class="h-8 mx-2 rounded-full border-1"
+            src="img/channel-img/channel-1.jpeg"
+            alt=""
+          />
+          <div class="cursor-pointer">
+            <p class="text-sm font-bold">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="text-xs text-slate-500">Marques Brownlee</p>
+            <p class="text-xs text-slate-500">3.4M views 6months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-fit">
+        <div class="relative">
+          <img
+            class="sm:w-[25rem]"
+            src="img/thumbnail/thumbnail-2.webp"
+            alt=""
+          />
+          <p
+            class="absolute bottom-0 right-0 mb-1 text-xs text-white bg-black me-1"
+          >
+            08:22
+          </p>
+        </div>
+
+        <div class="flex pt-2">
+          <img
+            class="h-8 mx-2 rounded-full border-1"
+            src="img/channel-img/channel-2.jpeg"
+            alt=""
+          />
+          <div class="cursor-pointer">
+            <p class="text-sm font-bold">Try Not To Laugh Challenge #9</p>
+            <p class="text-xs text-slate-500">Markpiller</p>
+            <p class="text-xs text-slate-500">90M views 4months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-fit">
+        <div class="relative">
+          <p
+            class="absolute bottom-0 right-0 mb-1 text-xs text-white bg-black me-1"
+          >
+            9:13
+          </p>
+          <img
+            class="sm:w-[25rem]"
+            src="img/thumbnail/thumbnail-3.webp"
+            alt=""
+          />
+        </div>
+
+        <div class="flex pt-2">
+          <img
+            class="h-8 mx-2 rounded-full border-1"
+            src="img/channel-img/channel-3.jpeg"
+            alt=""
+          />
+          <div class="cursor-pointer">
+            <p class="text-sm font-bold">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="text-xs text-slate-500">Marques Brownlee</p>
+            <p class="text-xs text-slate-500">3.4M views 6months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-fit">
+        <div class="relative">
+          <img
+            class="sm:w-[25rem]"
+            src="img/thumbnail/thumbnail-4.webp"
+            alt=""
+          />
+          <p
+            class="absolute bottom-0 right-0 mb-1 text-xs text-white bg-black me-1"
+          >
+            22:09
+          </p>
+        </div>
+
+        <div class="flex pt-2">
+          <img
+            class="h-8 mx-2 rounded-full border-1"
+            src="img/channel-img/channel-4.jpeg"
+            alt=""
+          />
+          <div class="cursor-pointer">
+            <p class="text-sm font-bold">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="text-xs text-slate-500">Marques Brownlee</p>
+            <p class="text-xs text-slate-500">3.4M views 6months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-fit">
+        <div class="relative">
+          <img
+            class="sm:w-[25rem]"
+            src="img/thumbnail/thumbnail-5.webp"
+            alt=""
+          />
+          <p
+            class="absolute bottom-0 right-0 mb-1 text-xs text-white bg-black me-1"
+          >
+            22:09
+          </p>
+        </div>
+
+        <div class="flex pt-2">
+          <img
+            class="h-8 mx-2 rounded-full border-1"
+            src="img/channel-img/channel-5.jpeg"
+            alt=""
+          />
+          <div class="cursor-pointer">
+            <p class="text-sm font-bold">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="text-xs text-slate-500">Marques Brownlee</p>
+            <p class="text-xs text-slate-500">3.4M views 6months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-fit">
+        <div class="relative">
+          <img
+            class="sm:w-[25rem]"
+            src="img/thumbnail/thumbnail-6.webp"
+            alt=""
+          />
+          <p
+            class="absolute bottom-0 right-0 mb-1 text-xs text-white bg-black me-1"
+          >
+            22:09
+          </p>
+        </div>
+        <div class="flex pt-2">
+          <img
+            class="h-8 mx-2 rounded-full border-1"
+            src="img/channel-img/channel-6.jpeg"
+            alt=""
+          />
+          <div class="cursor-pointer">
+            <p class="text-sm font-bold">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="text-xs text-slate-500">Marques Brownlee</p>
+            <p class="text-xs text-slate-500">3.4M views 6months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-fit">
+        <div class="relative">
+          <img
+            class="sm:w-[25rem]"
+            src="img/thumbnail/thumbnail-7.webp"
+            alt=""
+          />
+          <p
+            class="absolute bottom-0 right-0 mb-1 text-xs text-white bg-black me-1"
+          >
+            22:09
+          </p>
+        </div>
+        <div class="flex pt-2">
+          <img
+            class="h-8 mx-2 rounded-full border-1"
+            src="img/channel-img/channel-7.jpeg"
+            alt=""
+          />
+          <div class="cursor-pointer">
+            <p class="text-sm font-bold">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="text-xs text-slate-500">Marques Brownlee</p>
+            <p class="text-xs text-slate-500">3.4M views 6months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-fit">
+        <div class="relative">
+          <img
+            class="sm:w-[25rem]"
+            src="img/thumbnail/thumbnail-5.webp"
+            alt=""
+          />
+          <p
+            class="absolute bottom-0 right-0 mb-1 text-xs text-white bg-black me-1"
+          >
+            22:09
+          </p>
+        </div>
+        <div class="flex pt-2">
+          <img
+            class="h-8 mx-2 rounded-full border-1"
+            src="img/channel-img/channel-8.jpeg"
+            alt=""
+          />
+          <div class="cursor-pointer">
+            <p class="text-sm font-bold">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="text-xs text-slate-500">Marques Brownlee</p>
+            <p class="text-xs text-slate-500">3.4M views 6months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-fit">
+        <div class="relative">
+          <img
+            class="sm:w-[25rem]"
+            src="img/thumbnail/thumbnail-9.webp"
+            alt=""
+          />
+          <p
+            class="absolute bottom-0 right-0 mb-1 text-xs text-white bg-black me-1"
+          >
+            22:09
+          </p>
+        </div>
+        <div class="flex pt-2">
+          <img
+            class="h-8 mx-2 rounded-full border-1"
+            src="img/channel-img/channel-9.jpeg"
+            alt=""
+          />
+          <div class="cursor-pointer">
+            <p class="text-sm font-bold">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="text-xs text-slate-500">Marques Brownlee</p>
+            <p class="text-xs text-slate-500">3.4M views 6months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-fit">
+        <div class="relative">
+          <img
+            class="sm:w-[25rem]"
+            src="img/thumbnail/thumbnail-10.webp"
+            alt=""
+          />
+          <p
+            class="absolute bottom-0 right-0 mb-1 text-xs text-white bg-black me-1"
+          >
+            22:09
+          </p>
+        </div>
+        <div class="flex pt-2">
+          <img
+            class="h-8 mx-2 rounded-full border-1"
+            src="img/channel-img/channel-10.jpeg"
+            alt=""
+          />
+          <div class="cursor-pointer">
+            <p class="text-sm font-bold">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="text-xs text-slate-500">Marques Brownlee</p>
+            <p class="text-xs text-slate-500">3.4M views 6months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-fit">
+        <div class="relative">
+          <img
+            class="sm:w-[25rem]"
+            src="img/thumbnail/thumbnail-11.webp"
+            alt=""
+          />
+          <p
+            class="absolute bottom-0 right-0 mb-1 text-xs text-white bg-black me-1"
+          >
+            22:09
+          </p>
+        </div>
+        <div class="flex pt-2">
+          <img
+            class="h-8 mx-2 rounded-full border-1"
+            src="img/channel-img/channel-11.jpeg"
+            alt=""
+          />
+          <div class="cursor-pointer">
+            <p class="text-sm font-bold">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="text-xs text-slate-500">Marques Brownlee</p>
+            <p class="text-xs text-slate-500">3.4M views 6months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-fit">
+        <div class="relative">
+          <img
+            class="sm:w-[25rem]"
+            src="img/thumbnail/thumbnail-5.webp"
+            alt=""
+          />
+          <p
+            class="absolute bottom-0 right-0 mb-1 text-xs text-white bg-black me-1"
+          >
+            22:09
+          </p>
+        </div>
+        <div class="flex pt-2">
+          <img
+            class="h-8 mx-2 rounded-full border-1"
+            src="img/channel-img/channel-12.jpeg"
+            alt=""
+          />
+          <div class="cursor-pointer">
+            <p class="text-sm font-bold">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="text-xs text-slate-500">Marques Brownlee</p>
+            <p class="text-xs text-slate-500">3.4M views 6months ago</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer
+      class="fixed bottom-0 left-0 right-0 flex items-center justify-between px-4 py-2 text-xs bg-white border border-t-slate-400 sm:hidden"
+    >
+      <div>
+        <img class="w-6 m-auto" src="img/icons/home.svg" alt="" />
+        <p>Home</p>
+      </div>
+
+      <div>
+        <img class="w-6 m-auto" src="img/icons/library.svg" alt="" />
+        <p>Library</p>
+      </div>
+
+      <div class="ms-2">
+        <img class="w-10 m-auto" src="img/icons/youtube-music.svg" alt="" />
+      </div>
+
+      <div>
+        <img class="w-6 m-auto" src="img/icons/subscriptions.svg" alt="" />
+        <p>Subscriptions</p>
+      </div>
+
+      <div>
+        <img class="w-6 m-auto" src="img/icons/originals.svg" alt="" />
+        <p>Originals</p>
+      </div>
+    </footer>
+  </body>
+</html>
